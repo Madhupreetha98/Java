@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class List{
+class Li{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
@@ -12,7 +12,13 @@ a[i]=sc.nextInt();
 }
 for(i=n-1;i>=0;i--)
 {
+if(i!=0)
+{
 System.out.print(a[i]+"->");
 }
+else
+{
+System.out.print(a[i]);
 }
+}}
 }
